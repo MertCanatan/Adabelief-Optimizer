@@ -40,5 +40,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py --optim adabelief --lr 1e-3 --eps 1e-8 --b
 ### Running time
 On a single GTX 1080 GPU, training a ResNet typically takes 4~5 hours for a single optimzer. To run all experiments would take 4 hours x 9 optimizers x 3 models = 108 hours
 
-### Update
+
+### Update(Personal)
 I trained the model again only using three optimizers (SGD with momentum, Adam, and AdaBelief) and saved the results under the file curves, and deleted the other optimizers' curves. curvevisualization.ipynb file includes the plots that are received using trained results under the curves folder. I also trained and saved the SGD with momentum curve with learning rate 0.001 but in the curvevisualization.ipynb file I did not include on the final plots. Obtained results were consistent with the original repo.
