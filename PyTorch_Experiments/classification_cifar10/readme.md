@@ -1,4 +1,4 @@
-### AdaBelief opitmizer: Adapting stepsizes by the belief in observed gradients
+### AdaBelief optimizer: Adapting stepsizes by the belief in observed gradients
 
 This repository contains code to reproduce results for submission 46 to NeurIPS 2020, "AdaBelief opitmizer: Adapting stepsizes by the belief in observed gradients".
 
